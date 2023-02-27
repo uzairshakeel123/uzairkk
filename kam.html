@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: saddlebrown;
+}
+ul{
+    list-style-type: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+    cursor: pointer;
+}
+.nav-links :hover{
+    color: khaki;
+}
+header{
+     background-image: url(images/bg.jpg); 
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    color: cadetblue;
+}
+.header-content{
+    text-align: center;
+    color: black;
+}
+.header-content h1{
+    font-size: 5vmin;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.line{
+    width: 200px;
+    height: 5px;
+    background-color: cadetblue;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.ctn{
+    padding: 8px 15px;
+    background-color:lightgrey;
+    border-radius: 30px;
+    color: cadetblue;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">JavaScript! The Best</h1>
+       <ul class="nav-links" >
+           <li class="active"><a href="#"></a>Home</li>
+           <li><a href="#"></a>About</li>
+           <li><a href="#"></a>Contact Us</li>
+           <li><a href="#"></a>Shop Now</li>
+       </ul>
+    </nav>
+
+    <header>
+        <div class="header-content">
+        <h2 style="font-size: 40px;">Welcome to My Website</h2>
+        <div class="line"></div>
+        <h1 style="font-size: 40px;">Hello</h1><br>
+        <a href="#" class="ctn" style="font-weight: bolder; font-size: 25px;">Learn More</a>
+     </div>
+    </header>
+
+
+    <div
+id="carouselMultiItemExample"
+  class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+>
+  <!-- Controls -->
+  <!-- <div class="d-flex justify-content-center mb-4">
+    <button
+      class="carousel-control-prev position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="images/bible-1868070__340.webp"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit distinctio incidunt, aliquam voluptates voluptatibus voluptate.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/book-1283865__340.webp"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi eos delectus dignissimos distinctio! Ab, a.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/book-3998252__340.webp"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloremque alias fuga, aliquam, laudantium natus voluptates commodi exercitationem esse perspiciatis reiciendis delectus ducimus velit enim.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------------------------------ -->
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/coffee-2511065__340.webp"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam esse modi sit aut pariatur eius facilis doloremque laudantium magni, voluptatibus soluta, dolorem neque sunt dolore!
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------new ------------------->
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/coffee-3025022__340.webp"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit rem quod optio dolorum placeat voluptate voluptatem vero adipisci accusantium doloribus. Voluptas doloremque quas similique numquam.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+          <!---------------new--->
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/glasses-1052010__340.webp"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores, aliquam delectus beatae unde illum ea veniam eos, provident qui sint animi culpa ratione neque.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <img
+                src="images/bible-1868070__340.webp"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis minima iure doloribus non ad explicabo?
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/book-1283865__340.webp"
+                class="card-img-top"
+                alt="Storm Clouds"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit commodi consequatur nemo tempore, molestiae excepturi?
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/book-3998252__340.webp"
+                class="card-img-top"
+                alt="Hot Air Balloons"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quod esse temporibus saepe, dolor voluptas.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="card">
+              <img
+                src="images/coffee-2511065__340.webp"
+                class="card-img-top"
+                alt="Peaks Against the Starry Sky"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, consequatur eaque. Doloremque soluta nihil inventore!
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/coffee-3025022__340.webp"
+                class="card-img-top"
+                alt="Bridge Over Water"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vitae excepturi, quos illum aliquid consequatur!.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="images/glasses-1052010__340.webp"
+                class="card-img-top"
+                alt="Purbeck Heritage Coast"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+</body>
+</html>
